@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+   <div class="bg">
+    <div class="logo-panel">
+        <img src="resources/Pictures/Logo.png" alt="Odin logo image">
+        <p>Odin</p>
+    </div>
+   </div>
+   <div class="container">
+    <div class="disclaimer">
+        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. <br> Sign up <em>now</em> to get started.
+        <br><br>You know you want to.
+    </div>
+    <form id="myform" action="" method="post">
+        <h3>Let's do this!</h3>
+        <div class="form-frame">
+            <div>
+                <label for="name">FIRST NAME</label>
+                <input required id="name" name="name" type="text">
+            </div>
+            <div>
+                <label for="surname">LAST NAME</label>
+                <input required id="surname" name="surname" type="text">
+            </div>
+            <div>
+                <label for="email">EMAIL</label>
+                <input required id="email" name="email" type="email">
+            </div>
+            <div>
+                <label for="tel">PHONE NUMBER</label>
+                <input id="tel" name="tel" type="tel">
+            </div>
+            <div>
+                <label for="password">PASSWORD</label>
+                <input required id="password" name="password" type="password">
+                <span></span>
+            </div>
+            <div>
+                <label for="passwordcfrm">CONFIRM PASSWORD</label>
+                <input required id="passwordcfrm" name="passwordcfrm" type="password">
+            </div>
+
+        </div>
+
+    </form>
+    <div class="submit-area">
+        <button type="submit" form="myform">Create Account</button>
+        <p>Already have an account? <a href="https://github.com/CheraHamza">Log in</a></p>
+    </div>
+    
+   </div>
+</body>
+</html>
